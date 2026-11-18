@@ -27,29 +27,29 @@ Traditionally, gold issuance and job-work rely on informal trust, uncalibrated s
 
 ```mermaid
 flowchart TD
-    subgraph UI [Mobile Application Shell]
-        JM[Jeweller Persona View]
-        KM[Karigar Persona View]
-        OCR_CAM[Photo-Verified Scale Camera]
-        VOICE_REC[WhatsApp Voice Note Studio]
-        PASSPORT[Portable Karigar Trust Passport]
+    subgraph UI ["Mobile Application Shell"]
+        JM["Jeweller Persona View"]
+        KM["Karigar Persona View"]
+        OCR_CAM["Photo-Verified Scale Camera"]
+        VOICE_REC["WhatsApp Voice Note Studio"]
+        PASSPORT["Portable Karigar Trust Passport"]
     end
 
-    subgraph AI_Core [Agentic Intelligence Layer]
-        OCR_ENG[Digital Scale Optical OCR]
-        WHISPER_ENG[Multilingual Voice Parser (Gujarati/Hindi/English)]
-        ANOMALY_RADAR[Personalized Wastage Anomaly Detector]
-        DEADLINE_RADAR[Muhurat Date Risk Predictor]
-        DISPUTE_AGENT[Neutral Mediation Assistant]
+    subgraph AI_Core ["Agentic Intelligence Layer"]
+        OCR_ENG["Digital Scale Optical OCR"]
+        WHISPER_ENG["Multilingual Voice Parser (Gujarati / Hindi / English)"]
+        ANOMALY_RADAR["Personalized Wastage Anomaly Detector"]
+        DEADLINE_RADAR["Muhurat Date Risk Predictor"]
+        DISPUTE_AGENT["Neutral Mediation Assistant"]
     end
 
-    subgraph Trust_Ledger [Fine-Gold Ledger & Settlement]
-        FGE[24K Fine Gold Conversion Matrix]
-        SCRAP_ENG[Separate Scrap Lifecycle (Tukda/Chhol/Rada)]
-        DUAL_SIG[Dual-Party OTP State Machine]
-        ESCROW[Conditional Payout Release Gateway]
-        GST_TAX[Form GST ITC-04 Job-Work Challan]
-        OFFLINE[Offline-First IndexedDB Sync Engine]
+    subgraph Trust_Ledger ["Fine-Gold Ledger & Settlement"]
+        FGE["24K Fine Gold Conversion Matrix"]
+        SCRAP_ENG["Separate Scrap Lifecycle (Tukda / Chhol / Rada)"]
+        DUAL_SIG["Dual-Party OTP State Machine"]
+        ESCROW["Conditional Payout Release Gateway"]
+        GST_TAX["Form GST ITC-04 Job-Work Challan"]
+        OFFLINE["Offline-First IndexedDB Sync Engine"]
     end
 
     UI --> AI_Core
